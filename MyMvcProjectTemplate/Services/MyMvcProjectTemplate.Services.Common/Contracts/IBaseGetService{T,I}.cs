@@ -3,6 +3,11 @@
     using System.Linq;
     using Data.Common.Models;
 
+    /// <summary>
+    /// Common Get service.
+    /// </summary>
+    /// <typeparam name="T">Must be IAuditInfo and IDeletableEntity.</typeparam>
+    /// <typeparam name="I">Must be struct or string.</typeparam>
     public interface IBaseGetService<T, I> where T : IAuditInfo, IDeletableEntity
     {
         /// <summary>
