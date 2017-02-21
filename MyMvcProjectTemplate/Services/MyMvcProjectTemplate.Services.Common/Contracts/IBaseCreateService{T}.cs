@@ -6,7 +6,8 @@
     /// Common Create service.
     /// </summary>
     /// <typeparam name="T">Must be IAuditInfo and IDeletableEntity.</typeparam>
-    public interface IBaseCreateService<T> where T : IAuditInfo, IDeletableEntity
+    public interface IBaseCreateService<T>
+        where T : IAuditInfo, IDeletableEntity
     {
         /// <summary>
         /// Create new <"T">.

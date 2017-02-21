@@ -1,4 +1,4 @@
-namespace MyMvcProjectTemplate.Data.Migrations
+﻿namespace MyMvcProjectTemplate.Data.Migrations
 {
     using System.Data.Entity.Migrations;
     using Seeders;

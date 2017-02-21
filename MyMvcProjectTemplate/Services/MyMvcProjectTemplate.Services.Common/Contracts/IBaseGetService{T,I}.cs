@@ -8,12 +8,13 @@
     /// </summary>
     /// <typeparam name="T">Must be IAuditInfo and IDeletableEntity.</typeparam>
     /// <typeparam name="I">Must be struct or string.</typeparam>
-    public interface IBaseGetService<T, I> where T : IAuditInfo, IDeletableEntity
+    public interface IBaseGetService<T, I>
+        where T : IAuditInfo, IDeletableEntity
     {
         /// <summary>
         /// Get all <"T">. Without ordinary deleted.
         /// </summary>
-        /// <returns><"T"> as queryable.</returns>
+        /// <returns> Return <"T"> as queryable. </returns>
         IQueryable<T> GetAll();
 
         /// <summary>

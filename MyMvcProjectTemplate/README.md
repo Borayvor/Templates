@@ -11,3 +11,4 @@
 #### Bootstrap - [Link](http://getbootstrap.com/)
 #### Newtonsoft.Json - [Link](http://www.newtonsoft.com/json)
 #### Microsoft.jQuery.Unobtrusive.Ajax - [Link](https://www.nuget.org/packages/Microsoft.jQuery.Unobtrusive.Ajax)
+#### StyleCop.Analyzers - [Link](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)

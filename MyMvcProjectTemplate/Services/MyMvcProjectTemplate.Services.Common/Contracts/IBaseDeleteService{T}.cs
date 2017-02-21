@@ -6,7 +6,8 @@
     /// Common Delete service.
     /// </summary>
     /// <typeparam name="T">Must be IAuditInfo and IDeletableEntity.</typeparam>
-    public interface IBaseDeleteService<T> where T : IAuditInfo, IDeletableEntity
+    public interface IBaseDeleteService<T>
+        where T : IAuditInfo, IDeletableEntity
     {
         /// <summary>
         /// Delete <"T">. Not permanent.

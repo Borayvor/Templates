@@ -32,12 +32,14 @@
                 return;
             }
 
-            // admin data
+            //// admin data
             const string AdministratorEmail = "admin@admin.com";
-            const string AdministratorUsername = "Admin";
+
+            // By default at ASP.NET MVC Username must be same as Email (to login)
+            const string AdministratorUsername = AdministratorEmail;
             const string AdministratorPassword = "admin";
 
-            // Create admin user
+            //// Create admin user
             var userStore = new UserStore<ApplicationUser>(context);
             var userManager = new UserManager<ApplicationUser>(userStore);
             userManager.PasswordValidator = new MinimumLengthValidator(AuthConstants.PasswordMinLength);
@@ -50,10 +52,10 @@
 
             userManager.Create(userAdmin, AdministratorPassword);
 
-            // Assign user to admin role
+            //// Assign user to admin role
             userManager.AddToRole(userAdmin.Id, AuthConstants.AdministratorRoleName);
 
-            // End add.
+            //// End add.
             context.SaveChanges();
         }
     }
