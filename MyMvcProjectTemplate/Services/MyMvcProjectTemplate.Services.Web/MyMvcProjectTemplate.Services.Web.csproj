@@ -46,6 +46,12 @@
     <Compile Include="HttpCacheService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\MyMvcProjectTemplate.Common\MyMvcProjectTemplate.Common.csproj">
+      <Project>{de595403-0a05-4c28-9fc0-e17da5b88b28}</Project>
+      <Name>MyMvcProjectTemplate.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

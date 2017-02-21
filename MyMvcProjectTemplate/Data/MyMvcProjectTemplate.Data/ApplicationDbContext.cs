@@ -40,11 +40,11 @@
 
                 if (entry.State == EntityState.Added && entity.CreatedOn == default(DateTime))
                 {
-                    entity.CreatedOn = GlobalDateTimeInfo.GetDateTimeNow();
+                    entity.CreatedOn = GlobalDateTimeInfo.GetDateTimeUtcNow();
                 }
                 else
                 {
-                    entity.ModifiedOn = GlobalDateTimeInfo.GetDateTimeNow();
+                    entity.ModifiedOn = GlobalDateTimeInfo.GetDateTimeUtcNow();
                 }
             }
         }

@@ -59,7 +59,7 @@
         public void Delete(T entity)
         {
             entity.IsDeleted = true;
-            entity.DeletedOn = GlobalDateTimeInfo.GetDateTimeNow();
+            entity.DeletedOn = GlobalDateTimeInfo.GetDateTimeUtcNow();
         }
 
         public void DeletePermanent(T entity)

@@ -14,7 +14,7 @@
         public ApplicationUser()
         {
             // This will prevent UserManager.CreateAsync from causing exception
-            this.CreatedOn = GlobalDateTimeInfo.GetDateTimeNow();
+            this.CreatedOn = GlobalDateTimeInfo.GetDateTimeUtcNow();
         }
 
         public DateTime CreatedOn { get; set; }

@@ -3,6 +3,7 @@
     using System;
     using System.Web;
     using System.Web.Caching;
+    using Common.DateTime;
     using Contracts;
 
     public class HttpCacheService : ICacheService
@@ -23,7 +24,7 @@
                             itemName,
                             data,
                             null,
-                            DateTime.Now.AddSeconds(durationInSeconds),
+                            GlobalDateTimeInfo.GetDateTimeUtcNow().AddSeconds(durationInSeconds),
                             Cache.NoSlidingExpiration);
                     }
                 }

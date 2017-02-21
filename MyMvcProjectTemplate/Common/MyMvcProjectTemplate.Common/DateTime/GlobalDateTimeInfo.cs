@@ -4,7 +4,7 @@
 
     public class GlobalDateTimeInfo
     {
-        public static DateTime GetDateTimeNow()
+        public static DateTime GetDateTimeUtcNow()
         {
             return DateTime.UtcNow;
         }
