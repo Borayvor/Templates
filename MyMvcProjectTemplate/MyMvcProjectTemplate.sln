@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMvcProjectTemplate.Web.Ro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMvcProjectTemplate.Services.Common", "Services\MyMvcProjectTemplate.Services.Common\MyMvcProjectTemplate.Services.Common.csproj", "{F70892F7-DA64-4ACC-87E5-92287E7E7D6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMvcProjectTemplate.Services.User", "Services\MyMvcProjectTemplate.Services.User\MyMvcProjectTemplate.Services.User.csproj", "{C1FE80CB-0F09-4C17-818D-6898489A848C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMvcProjectTemplate.Services.ApplicationUser", "Services\MyMvcProjectTemplate.Services.User\MyMvcProjectTemplate.Services.ApplicationUser.csproj", "{C1FE80CB-0F09-4C17-818D-6898489A848C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

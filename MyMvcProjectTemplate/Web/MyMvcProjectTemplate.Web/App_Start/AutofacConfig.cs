@@ -3,16 +3,15 @@
     using System.Data.Entity;
     using System.Reflection;
     using System.Web.Mvc;
-
     using Autofac;
     using Autofac.Integration.Mvc;
-    using MyMvcProjectTemplate.Data;
-    using MyMvcProjectTemplate.Data.Common.Repositories;
-    using MyMvcProjectTemplate.Services.User;
-    using MyMvcProjectTemplate.Services.Web;
-    using MyMvcProjectTemplate.Services.Web.Contracts;
-    using MyMvcProjectTemplate.Web;
-    using MyMvcProjectTemplate.Web.Controllers;
+    using Controllers;
+    using Data;
+    using Data.Common.Repositories;
+    using Services.ApplicationUser;
+    using Services.Web;
+    using Services.Web.Contracts;
+    using Web;
 
     public static class AutofacConfig
     {

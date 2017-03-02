@@ -341,9 +341,9 @@
       <Project>{f70892f7-da64-4acc-87e5-92287e7e7d6b}</Project>
       <Name>MyMvcProjectTemplate.Services.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Services\MyMvcProjectTemplate.Services.User\MyMvcProjectTemplate.Services.User.csproj">
+    <ProjectReference Include="..\..\Services\MyMvcProjectTemplate.Services.User\MyMvcProjectTemplate.Services.ApplicationUser.csproj">
       <Project>{c1fe80cb-0f09-4c17-818d-6898489a848c}</Project>
-      <Name>MyMvcProjectTemplate.Services.User</Name>
+      <Name>MyMvcProjectTemplate.Services.ApplicationUser</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Services\MyMvcProjectTemplate.Services.Web\MyMvcProjectTemplate.Services.Web.csproj">
       <Project>{102ebc87-8326-4c25-8f3a-84196d6ffb99}</Project>

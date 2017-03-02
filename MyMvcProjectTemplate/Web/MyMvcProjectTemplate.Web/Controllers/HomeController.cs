@@ -3,7 +3,7 @@
     using System.Linq;
     using System.Web.Mvc;
     using Infrastructure.Mapping;
-    using Services.User.Contracts;
+    using Services.ApplicationUser.Contracts;
     using ViewModels.User;
 
     public class HomeController : BaseController
