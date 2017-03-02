@@ -342,7 +342,7 @@
       <Name>MyMvcProjectTemplate.Services.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Services\MyMvcProjectTemplate.Services.User\MyMvcProjectTemplate.Services.User.csproj">
-      <Project>{bded29f7-d149-4eb8-861c-fff3d40e802d}</Project>
+      <Project>{c1fe80cb-0f09-4c17-818d-6898489a848c}</Project>
       <Name>MyMvcProjectTemplate.Services.User</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Services\MyMvcProjectTemplate.Services.Web\MyMvcProjectTemplate.Services.Web.csproj">
