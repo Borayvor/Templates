@@ -59,10 +59,7 @@
                 .InstancePerRequest();
 
             var userServicesAssembly = Assembly.GetAssembly(typeof(ApplicationUserProfileService));
-            builder.RegisterAssemblyTypes(userServicesAssembly).AsImplementedInterfaces();
-
-            var photocourseServiceAssembly = Assembly.GetAssembly(typeof(PhotocourseService));
-            builder.RegisterAssemblyTypes(photocourseServiceAssembly).AsImplementedInterfaces();
+            builder.RegisterAssemblyTypes(userServicesAssembly).AsImplementedInterfaces();            
 
             builder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly())
                 .AssignableTo<BaseController>().PropertiesAutowired();
