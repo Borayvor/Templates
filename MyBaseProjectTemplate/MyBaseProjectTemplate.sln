@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{9C5F37
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBaseProjectTemplate.Data.Common", "Data\MyBaseProjectTemplate.Data.Common\MyBaseProjectTemplate.Data.Common.csproj", "{F1E7C0FB-CFDC-465C-8A9F-E81F3901EB51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBaseProjectTemplate.Tests.IntegrationTests", "Tests\MyBaseProjectTemplate.Tests.IntegrationTests\MyBaseProjectTemplate.Tests.IntegrationTests.csproj", "{17AFF29D-8B03-472B-B81F-1953FC29D68A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBaseProjectTemplate.Tests.UnitTests", "Tests\MyBaseProjectTemplate.Tests.UnitTests\MyBaseProjectTemplate.Tests.UnitTests.csproj", "{E7EDB618-3B54-4DDE-974E-130B9FABD067}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,11 +31,21 @@ Global
 		{F1E7C0FB-CFDC-465C-8A9F-E81F3901EB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1E7C0FB-CFDC-465C-8A9F-E81F3901EB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1E7C0FB-CFDC-465C-8A9F-E81F3901EB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17AFF29D-8B03-472B-B81F-1953FC29D68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AFF29D-8B03-472B-B81F-1953FC29D68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AFF29D-8B03-472B-B81F-1953FC29D68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AFF29D-8B03-472B-B81F-1953FC29D68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7EDB618-3B54-4DDE-974E-130B9FABD067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7EDB618-3B54-4DDE-974E-130B9FABD067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7EDB618-3B54-4DDE-974E-130B9FABD067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7EDB618-3B54-4DDE-974E-130B9FABD067}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F1E7C0FB-CFDC-465C-8A9F-E81F3901EB51} = {EA1CE976-CFF8-41A4-B2FD-3A30DB99DEED}
+		{17AFF29D-8B03-472B-B81F-1953FC29D68A} = {BFC47904-BCD7-4DBE-8977-3D94AF556E5C}
+		{E7EDB618-3B54-4DDE-974E-130B9FABD067} = {BFC47904-BCD7-4DBE-8977-3D94AF556E5C}
 	EndGlobalSection
 EndGlobal
