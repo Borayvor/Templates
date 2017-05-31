@@ -49,8 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contracts\IMyBaseProjectTemplateDBContext.cs" />
-    <Compile Include="MyBaseProjectTemplateDBContext.cs" />
+    <Compile Include="Contracts\IMyBaseProjectTemplateEfDBContext.cs" />
+    <Compile Include="MyBaseProjectTemplateEfDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
