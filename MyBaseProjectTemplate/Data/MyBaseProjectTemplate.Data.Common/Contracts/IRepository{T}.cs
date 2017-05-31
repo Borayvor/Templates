@@ -1,4 +1,4 @@
-﻿namespace MyBaseProjectTemplate.Data.Common.Repositories
+﻿namespace MyBaseProjectTemplate.Data.Common.Contracts
 {
     using System.Collections.Generic;
 

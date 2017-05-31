@@ -2,10 +2,18 @@
 {
     using System;
     using System.Collections.Generic;
+    using Contracts;
 
     public class Repository<T> : IRepository<T>
         where T : class
     {
+        public Repository(MyBaseProjectTemplateDBContext context)
+        {
+            this.Context = context;
+        }
+
+        private MyBaseProjectTemplateDBContext Context { get; set; }
+
         public void Create(T entity)
         {
             throw new NotImplementedException();
