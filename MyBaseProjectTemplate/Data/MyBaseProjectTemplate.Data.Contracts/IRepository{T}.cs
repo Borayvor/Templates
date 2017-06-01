@@ -1,10 +1,10 @@
-﻿namespace MyBaseProjectTemplate.Data.Common.Contracts
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq.Expressions;
-    using Enums;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq.Expressions;
+using MyBaseProjectTemplate.Common.Enums;
 
+namespace MyBaseProjectTemplate.Data.Contracts
+{
     public interface IRepository<T>
         where T : class
     {

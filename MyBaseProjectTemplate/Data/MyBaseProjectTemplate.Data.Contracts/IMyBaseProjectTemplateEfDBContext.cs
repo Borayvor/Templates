@@ -1,8 +1,8 @@
-﻿namespace MyBaseProjectTemplate.Data.Contracts
-{
-    using System.Data.Entity;
-    using System.Data.Entity.Infrastructure;
+﻿using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 
+namespace MyBaseProjectTemplate.Data.Contracts
+{
     public interface IMyBaseProjectTemplateEfDBContext
     {
         DbSet<TEntity> Set<TEntity>()

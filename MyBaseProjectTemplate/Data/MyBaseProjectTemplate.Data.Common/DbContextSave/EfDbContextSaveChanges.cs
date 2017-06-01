@@ -1,12 +1,12 @@
-﻿namespace MyBaseProjectTemplate.Data.Common.DbContextSave
-{
-    using System.Data.Entity;
-    using System.Threading.Tasks;
-    using Bytes2you.Validation;
-    using Contracts;
-    using MyBaseProjectTemplate.Common.Constants;
+﻿using System.Data.Entity;
+using System.Threading.Tasks;
+using Bytes2you.Validation;
+using MyBaseProjectTemplate.Common.Constants;
+using MyBaseProjectTemplate.Data.Contracts;
 
-    public class EfDbContextSaveChanges : IContextSaveChanges
+namespace MyBaseProjectTemplate.Data.Common.DbContextSave
+{
+    public class EfDbContextSaveChanges : IDbContextSaveChanges
     {
         public EfDbContextSaveChanges(DbContext context)
         {
@@ -19,12 +19,12 @@
 
         private DbContext Context { get; set; }
 
-        public int SaveChanges()
+        public int Save()
         {
             return this.Context.SaveChanges();
         }
 
-        public Task<int> SaveChangesAsync()
+        public Task<int> SaveAsync()
         {
             return this.Context.SaveChangesAsync();
         }

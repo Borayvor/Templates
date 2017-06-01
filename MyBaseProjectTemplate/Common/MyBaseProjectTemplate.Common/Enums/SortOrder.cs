@@ -1,4 +1,4 @@
-﻿namespace MyBaseProjectTemplate.Data.Common.Enums
+﻿namespace MyBaseProjectTemplate.Common.Enums
 {
     public enum SortOrder
     {

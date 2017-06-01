@@ -1,16 +1,15 @@
-﻿namespace MyBaseProjectTemplate.Data.Common.Repositories
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Data.Entity;
-    using System.Linq;
-    using System.Linq.Expressions;
-    using Bytes2you.Validation;
-    using Contracts;
-    using Data.Contracts;
-    using Enums;
-    using MyBaseProjectTemplate.Common.Constants;
+﻿using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Linq.Expressions;
+using Bytes2you.Validation;
+using MyBaseProjectTemplate.Common.Constants;
+using MyBaseProjectTemplate.Common.Enums;
+using MyBaseProjectTemplate.Data.Contracts;
 
+namespace MyBaseProjectTemplate.Data.Common.Repositories
+{
     public class EfRepository<T> : IRepository<T>
         where T : class
     {
