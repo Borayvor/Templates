@@ -15,7 +15,7 @@ Run `dotnet watch run` for a dev server. Navigate to `http://localhost:5000`. Th
 Run `dotnet build` to the project and its dependencies into a set of binaries. The build artifacts will be stored in the `wwwroot/` directory for `client` and in the `bin/Debug/` for `Server`.
 
 
-## ===================================================================
+## =====================================================
 
 
 # Angular 2 client
@@ -49,7 +49,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 Before running the tests make sure you are serving the app via `ng serve`.
 
 
-## ===================================================================
+## =====================================================
 
 
 ## Further help
