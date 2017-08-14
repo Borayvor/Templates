@@ -9,7 +9,7 @@ namespace AngularAndCore.Server.Controllers
     [HttpGet]
     public IEnumerable<string> Get()
     {
-      return new string[] { "First", "Second", "Thid", "Fourth", "Fifth", "Sixth", "Seventh" };
+      return new string[] { "First", "Second", "Thid", "Fourth", "Fifth" };
     }
   }
 }
