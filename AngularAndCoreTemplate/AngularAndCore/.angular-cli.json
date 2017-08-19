@@ -49,6 +49,13 @@
   },
   "defaults": {
     "styleExt": "scss",
-    "component": {}
+    "component": {
+      "spec": true,
+      "inlineStyle": false,
+      "inlineTemplate": false,
+      "flat": false,
+      "changeDetection": "Default",
+      "viewEncapsulation": "Emulated"
+    }
   }
 }
